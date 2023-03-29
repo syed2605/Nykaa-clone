@@ -91,7 +91,7 @@ Nykaa is an Indian e-commerce company, founded by Falguni Nayar in 2012 and head
 <hr/>
 
 ## Installation and Setup Instructions
-Clone down this repository using this <a href="https://github.com/hero007noob/Nykaa-clone">link</a>  
+Clone down this repository using this <a href="https://github.com/syed2605/Nykaa-clone">link</a>  
 <hr/>
 
 ## See Live
@@ -130,7 +130,6 @@ Visit the Deployed version using this <a href="https://nyka-clone.netlify.app/">
 - **Github Link** : https://github.com/rasikaG23
 - **Linkedin** :   https://www.linkedin.com/in/rasika-gujar-06a9841b3/
 
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/hero007noob/Nykaa-clone.svg)](https://github.com/hero007noob/Nykaa-clone)
 
 
 
