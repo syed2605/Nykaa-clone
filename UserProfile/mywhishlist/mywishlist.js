@@ -134,9 +134,14 @@ function addtobuy(item, index) {
 
 var bag = JSON.parse(localStorage.getItem("product-Bag")) || [];
 function addtobag(item, index) {
+  console.log(index,"indexxxxxxxxxxxxxxxxxx")
   popUp();
+  console.log(item,"iitemmmmmmmmm")
   bag.push(item);
   localStorage.setItem("product-Bag", JSON.stringify(bag));
+  let cartItemNumText = document.querySelector(".cartItemNumText");
+  let cartItemCount = Number(cartItemNumText.textContent) + 1;
+  cartItemNumText.textContent = cartItemCount;
   faceData.splice(index, 1);
   localStorage.setItem("product-wishlist", JSON.stringify(faceData));
   displaywish(faceData);

@@ -13,7 +13,7 @@
 //     },
 // ]
 
-var data = JSON.parse(localStorage.getItem("product-Bag")) || [];
+var data = JSON.parse(localStorage.getItem("orderItemsData")) || [];
 displayProduct(data);
 function displayProduct(doc) {
   document.querySelector(".orderdiv").innerHTML = " ";

@@ -187,11 +187,11 @@ flatInput.addEventListener("keyup", function (){
   let flat = flatInput.value;
   let flatwarn = document.querySelector(".address-flatwarning");
 
-  if (!flat || flat.length != 4){
+  if (flat.length <= 4){
     flatwarn.classList.remove("hide1");
   }
   
-  if (!flat || flat.length == 4){
+  if (!flat || flat.length >= 4){
     flatwarn.classList.add("hide1");
   }
 });
@@ -200,11 +200,11 @@ areaInput.addEventListener("keyup", function (){
   let area = areaInput.value;
   let areawarn = document.querySelector(".address-areawarning");
 
-  if (!area || area.length != 4){
+  if (area.length <= 4){
     areawarn.classList.remove("hide2");
   }
   
-  if (!area || area.length == 4){
+  if (area.length >= 4){
     areawarn.classList.add("hide2");
   }
 });
@@ -214,11 +214,11 @@ nameInput.addEventListener("keyup", function (){
   let name = nameInput.value;
   let namewarn = document.querySelector(".address-namewarning");
 
-  if (!name || name.length != 4){
+  if (name.length <= 4){
     namewarn.classList.remove("hide4");
   }
   
-  if (!name || name.length == 4){
+  if (!name || name.length >= 4){
     namewarn.classList.add("hide4");
   }
 });

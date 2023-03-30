@@ -224,6 +224,9 @@ cvvInput.addEventListener("keyup", function (){
 // 
 
 function redirect() {
+  let orderItemsData = bagItemsData;
+  localStorage.setItem("product-Bag", JSON.stringify([]));
+  localStorage.setItem("orderItemsData", JSON.stringify(orderItemsData));
   window.location.assign("../UserProfile/myorder/myorder.html");
 }
 
