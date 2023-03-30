@@ -56,9 +56,13 @@ Nykaa is an Indian e-commerce company, founded by Falguni Nayar in 2012 and head
 <img src="./.readme/otp.gif"/>
 
 <br>
-
-#### Product Page:
+#### Products Page:
 <img src="./.readme/productpage.png"/>
+
+<br>
+
+#### Product Details Page:
+<img src="./.readme/allProducts.jpg"/>
 
 <br>
 
