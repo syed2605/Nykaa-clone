@@ -102,7 +102,7 @@ Clone down this repository using this <a href="https://github.com/syed2605/Nykaa
 <hr/>
 
 ## See Live
-Visit the Deployed version using this <a href="https://nyka-clone.netlify.app/">link</a>  
+Visit the Deployed version using this <a href="https://nyka2605.netlify.app/">link</a>  
 <hr/>
 
 ## Team Members and Contributors
